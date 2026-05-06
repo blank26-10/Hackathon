@@ -107,7 +107,7 @@ models = {
         random_state=RANDOM_STATE
     ),
     "random_forest": RandomForestClassifier(
-        n_estimators=200,
+        n_estimators=50,
         class_weight="balanced",
         random_state=RANDOM_STATE,
         n_jobs=1

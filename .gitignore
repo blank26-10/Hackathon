@@ -1,3 +1,6 @@
-saved_models/*.joblib
+saved_models/preprocessor.joblib
+saved_models/svm.joblib
+saved_models/logistic_regression.joblib
+
 __pycache__/
 *.pyc
