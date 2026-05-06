@@ -164,7 +164,7 @@ def render_prediction_result(prediction, probability):
         """,
         unsafe_allow_html=True
     )
-    st.metric("Model probability", risk_text)
+    
     st.caption('''Disclaimer: 
                The model is based on machine learning and may produce errors, especially in borderline or rare cases. It should not be used for critical healthcare decisions.''')
 
